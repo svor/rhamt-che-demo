@@ -1,0 +1,34 @@
+apiVersion: v2
+id: demo.demo-rhamt-vscode-extension
+version: latest
+type: VS Code extension
+name: rhamt-demo
+displayName: Migration Toolkit
+title: Application Migration and Modernization using RHAMT
+description: Application Migration and Modernization using RHAMT
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+publisher: demo
+repository: https://github.com/windup/rhamt-che-demo
+category: Other
+firstPublicationDate: "2020-03-02"
+spec:
+  endpoints:
+  - name: "configuration-endpoint"
+    public: true
+    targetPort: 61436
+    attributes:
+      protocol: http
+  - name: "report-endpoint"
+    public: true
+    targetPort: 61435
+    attributes:
+      protocol: http
+  containers:
+    - image: "windup3/rhamt-vscode-extension:java8"
+      name: rhamt-extension
+      mountSources: true
+      ports:
+        - exposedPort: 61435
+        - exposedPort: 61436
+  extensions:
+    - https://download.jboss.org/jbosstools/adapters/stable/rhamt-vscode-extension/rhamt-vscode-extension-0.0.22-399.vsix
