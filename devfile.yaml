@@ -1,3 +1,10 @@
 apiVersion: 1.0.0
 metadata:
   name: che-rhamt-demo
+
+projects:
+
+  - name: jboss-daytrader
+    source:
+      location: 'https://github.com/johnsteele/jboss-daytrader'
+      type: git    
