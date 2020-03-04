@@ -7,4 +7,12 @@ projects:
   - name: jboss-daytrader
     source:
       location: 'https://github.com/johnsteele/jboss-daytrader'
-      type: git    
+      type: git
+
+components:
+
+  - alias: rhamt-demo-plugin
+    type: chePlugin
+    reference: https://raw.githubusercontent.com/windup/rhamt-che-demo/master/meta.yaml
+    memoryLimit: 1500M
+    
