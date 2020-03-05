@@ -1,5 +1,4 @@
 apiVersion: v2
-id: demo.demo-rhamt-vscode-extension
 version: latest
 type: VS Code extension
 name: rhamt-demo
