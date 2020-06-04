@@ -30,4 +30,4 @@ spec:
         - exposedPort: 61435
         - exposedPort: 61436
   extensions:
-    - https://download.jboss.org/jbosstools/adapters/snapshots/rhamt-vscode-extension/rhamt-vscode-extension-0.0.32-519.vsix
+    - https://download.jboss.org/jbosstools/adapters/snapshots/rhamt-vscode-extension/rhamt-vscode-extension-0.0.33-523.vsix
