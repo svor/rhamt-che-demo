@@ -3,8 +3,8 @@ version: latest
 type: VS Code extension
 name: rhamt-demo
 displayName: Migration Toolkit
-title: Application Migration and Modernization using RHAMT
-description: Application Migration and Modernization using RHAMT
+title: Migration Toolkit for Applications (MTA)
+description: Migration Toolkit for Applications (MTA)
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 publisher: demo
 repository: https://github.com/windup/rhamt-che-demo
@@ -29,5 +29,8 @@ spec:
       ports:
         - exposedPort: 61435
         - exposedPort: 61436
+      volumes:
+        - name: rhamt-vscode
+          mountPath: "/home/theia/home/theia/redhat.rhamt-vscode-extension"
   extensions:
     - https://download.jboss.org/jbosstools/adapters/snapshots/rhamt-vscode-extension/rhamt-vscode-extension-0.0.37-584.vsix

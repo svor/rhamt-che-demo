@@ -1,6 +1,6 @@
 apiVersion: 1.0.0
 metadata:
-  name: che-rhamt-demo
+  name: che-mta-demo
 
 projects:
 
@@ -11,7 +11,7 @@ projects:
 
 components:
 
-  - alias: rhamt-demo-plugin
+  - alias: mta-demo-plugin
     type: chePlugin
     reference: https://raw.githubusercontent.com/windup/rhamt-che-demo/master/meta.yaml
     memoryLimit: 1500M
