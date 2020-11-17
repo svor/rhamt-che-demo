@@ -23,7 +23,7 @@ spec:
     attributes:
       protocol: http
   containers:
-    - image: "windup3/rhamt-vscode-extension:java11"
+    - image: "quay.io/windupeng/mta-vscode-extension"
       name: rhamt-extension
       mountSources: true
       ports:
