@@ -33,4 +33,4 @@ spec:
         - name: rhamt-vscode
           mountPath: "/home/theia/home/theia/redhat.mta-vscode-extension"
   extensions:
-    - https://download.jboss.org/jbosstools/adapters/snapshots/mta-vscode-extension/mta-vscode-extension-0.0.56-769.vsix
+    - https://download.jboss.org/jbosstools/adapters/snapshots/mta-vscode-extension/mta-vscode-extension-0.0.58-790.vsix
