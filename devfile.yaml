@@ -6,7 +6,7 @@ projects:
 
   - name: jboss-daytrader
     source:
-      location: 'https://github.com/johnsteele/jboss-daytrader'
+      location: 'https://github.com/windup/windup-rulesets'
       type: git
 
 components:
