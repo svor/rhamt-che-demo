@@ -7,7 +7,7 @@ title: Migration Toolkit for Applications (MTA)
 description: Migration Toolkit for Applications (MTA)
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 publisher: demo
-repository: https://github.com/windup/rhamt-che-demo
+repository: https://github.com/ivargrimstad/jakartaee-duke
 category: Other
 firstPublicationDate: "2020-03-02"
 spec:
@@ -33,4 +33,4 @@ spec:
         - name: rhamt-vscode
           mountPath: "/home/theia/mta/redhat.mta-vscode-extension"
   extensions:
-    - https://download.jboss.org/jbosstools/vscode/stable/mta-vscode-extension/mta-vscode-extension-0.0.77-195.vsix
+    - https://download.jboss.org/jbosstools/vscode/stable/mta-vscode-extension/mta-vscode-extension-0.0.86-284.vsix
