@@ -4,9 +4,9 @@ metadata:
 
 projects:
 
-  - name: jboss-daytrader
+  - name: jakartaee-duke
     source:
-      location: 'https://github.com/windup/windup-rulesets'
+      location: 'https://github.com/johnsteele/jakartaee-duke'
       type: git
 
 components:
