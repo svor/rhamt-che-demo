@@ -4,9 +4,9 @@ metadata:
 
 projects:
 
-  - name: jakartaee-duke
+  - name: windup-rulesets
     source:
-      location: 'https://github.com/johnsteele/jakartaee-duke'
+      location: 'https://github.com/windup/windup-rulesets'
       type: git
 
 components:
