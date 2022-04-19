@@ -35,5 +35,5 @@ spec:
           mountPath: "/home/theia/mta/redhat.mta-vscode-extension"
   extensions:
     # - https://download.jboss.org/jbosstools/adapters/snapshots/mta-vscode-extension/mta-vscode-extension-0.0.87-295.vsix
-    - https://download.jboss.org/jbosstools/vscode/snapshots/mta-vscode-extension/mta-vscode-extension-0.0.93-349.vsix
+    - https://download.jboss.org/jbosstools/vscode/snapshots/mta-vscode-extension/mta-vscode-extension-0.0.94-353.vsix
 
