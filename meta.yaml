@@ -24,7 +24,7 @@ spec:
       protocol: http
   containers:
     # - image: "quay.io/windupeng/mta-vscode-extension:5.2.1.Alpha1"
-    - image: "quay.io/windupeng/mta-vscode-extension:5.3.0.Alpha3"
+    - image: "quay.io/windupeng/mta-vscode-extension:5.3.0.Final"
       name: rhamt-extension
       mountSources: true
       ports:
@@ -35,5 +35,5 @@ spec:
           mountPath: "/home/theia/mta/redhat.mta-vscode-extension"
   extensions:
     # - https://download.jboss.org/jbosstools/adapters/snapshots/mta-vscode-extension/mta-vscode-extension-0.0.87-295.vsix
-    - https://download.jboss.org/jbosstools/vscode/snapshots/mta-vscode-extension/mta-vscode-extension-0.0.94-353.vsix
+    - https://download.jboss.org/jbosstools/vscode/stable/mta-vscode-extension/mta-vscode-extension-0.0.96-360.vsix
 
