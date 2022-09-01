@@ -1,18 +1,9 @@
-apiVersion: 1.0.0
+apiVersion: 2.1.0
 metadata:
   name: che-mta-demo
 
-projects:
-
-  - name: windup-rulesets
-    source:
-      location: 'https://github.com/windup/windup-rulesets'
-      type: git
-
 components:
-
-  - alias: mta-demo-plugin
-    type: chePlugin
-    reference: https://raw.githubusercontent.com/windup/rhamt-che-demo/master/meta.yaml
-    memoryLimit: 1500M
-    
+  - name: tools
+    container:
+      image: quay.io/devspaces/udi-rhel8:3.1
+      memoryLimit: 3Gi
